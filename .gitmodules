@@ -1,0 +1,4 @@
+[submodule "deps/fastText"]
+	path = deps/fastText
+	url = https://github.com/facebookresearch/fastText/
+	branch = main
