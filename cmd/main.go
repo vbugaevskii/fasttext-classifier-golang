@@ -4,7 +4,7 @@ import (
     "os"
     "bufio"
     "fmt"
-    "github.com/vbugaevskii/fasttext-classifier-go"
+    "github.com/vbugaevskii/fasttext-classifier-go/pkg/fasttext"
 )
 
 func main() {
