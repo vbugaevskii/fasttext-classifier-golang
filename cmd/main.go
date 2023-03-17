@@ -1,15 +1,15 @@
 package main
 
 import (
-    "os"
-    "bufio"
-    "fmt"
-    "github.com/vbugaevskii/fasttext-classifier-go/pkg/fasttext"
+	"os"
+	"bufio"
+	"fmt"
+	"github.com/vbugaevskii/fasttext-classifier-go/pkg/fasttext"
 )
 
 func main() {
-    model := fasttext.NewModel(os.Args[1])
-    defer model.Free()
+	model := fasttext.NewModel(os.Args[1])
+	defer model.Free()
 
 	scanner := bufio.NewScanner(os.Stdin)
 
