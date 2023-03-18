@@ -13,7 +13,7 @@ This is Go binding for [fastText](https://github.com/facebookresearch/fastText) 
 ## Compiling
 Clone the repository and build project:
 ```bash
-git clone https://github.com/vbugaevskii/fasttext-classifier-golang/
+git clone --recursive https://github.com/vbugaevskii/fasttext-classifier-golang/
 cd fasttext-classifier-golang
 make all
 ```
